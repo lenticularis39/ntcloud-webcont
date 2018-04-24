@@ -5936,4 +5936,3 @@ function et($tag){
     $et['ca']['NoReturn'] = 'sense retorn';
     $et['ca']['FileSent'] = 'Arxiu enviat';
     $et['ca']['SpaceLimReached'] = 'Límit d`espaci al disc assolit';
-    $et['ca']['InvExt'] = 'Exten
