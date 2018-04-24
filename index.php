@@ -1,5 +1,5 @@
 <?php
-//{"lang":"","auth_pass":"d41d8cd98f00b204e9800998ecf8427e","error_reporting":1,"fm_root":""}
+//{"lang":"","auth_pass":"d5fabec5e34e216f9f4cc8358958216f","error_reporting":1,"fm_root":"\/mnt\/"}
 /*--------------------------------------------------
  | PHP FILE MANAGER
  +--------------------------------------------------
