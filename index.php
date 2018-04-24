@@ -1,3 +1,15 @@
+<br />
+<b>Deprecated</b>:  Methods with the same name as their class will not be constructors in a future version of PHP; config has a deprecated constructor in <b>/opt/app-root/src/index.php</b> on line <b>156</b><br />
+<br />
+<b>Deprecated</b>:  Methods with the same name as their class will not be constructors in a future version of PHP; archive has a deprecated constructor in <b>/opt/app-root/src/index.php</b> on line <b>3301</b><br />
+<br />
+<b>Deprecated</b>:  Methods with the same name as their class will not be constructors in a future version of PHP; tar_file has a deprecated constructor in <b>/opt/app-root/src/index.php</b> on line <b>3582</b><br />
+<br />
+<b>Deprecated</b>:  Methods with the same name as their class will not be constructors in a future version of PHP; gzip_file has a deprecated constructor in <b>/opt/app-root/src/index.php</b> on line <b>3706</b><br />
+<br />
+<b>Deprecated</b>:  Methods with the same name as their class will not be constructors in a future version of PHP; bzip_file has a deprecated constructor in <b>/opt/app-root/src/index.php</b> on line <b>3736</b><br />
+<br />
+<b>Deprecated</b>:  Methods with the same name as their class will not be constructors in a future version of PHP; zip_file has a deprecated constructor in <b>/opt/app-root/src/index.php</b> on line <b>3766</b><br />
 <?php
 //{"lang":"","auth_pass":"d5fabec5e34e216f9f4cc8358958216f","error_reporting":1,"fm_root":"\/mnt\/"}
 /*--------------------------------------------------
@@ -5935,33 +5947,4 @@ function et($tag){
     $et['ca']['NoReturn'] = 'sense retorn';
     $et['ca']['FileSent'] = 'Arxiu enviat';
     $et['ca']['SpaceLimReached'] = 'Límit d`espaci al disc assolit';
-    $et['ca']['InvExt'] = 'Extensió no vàlida';
-    $et['ca']['FileNoOverw'] = 'L`arxiu no ha pogut ser sobreescrit';
-    $et['ca']['FileOverw'] = 'Arxiu sobreescrit';
-    $et['ca']['FileIgnored'] = 'Arxiu ignorat';
-    $et['ca']['ChkVer'] = 'Revisar les actualitzacions';
-    $et['ca']['ChkVerAvailable'] = 'Nova versió, feu clic aquí per descarregar';
-    $et['ca']['ChkVerNotAvailable'] = 'La vostra versió és la més recent.';
-    $et['ca']['ChkVerError'] = 'Error de connexió.';
-    $et['ca']['Website'] = 'Lloc Web';
-    $et['ca']['SendingForm'] = 'Enviant arxius, esperi';
-    $et['ca']['NoFileSel'] = 'Cap arxiu seleccionat';
-    $et['ca']['SelAll'] = 'Tots';
-    $et['ca']['SelNone'] = 'Cap';
-    $et['ca']['SelInverse'] = 'Invers';
-    $et['ca']['Selected_s'] = 'seleccionat';
-    $et['ca']['Total'] = 'total';
-    $et['ca']['Partition'] = 'Partició';
-    $et['ca']['RenderTime'] = 'Generat en';
-    $et['ca']['Seconds'] = 'seg';
-    $et['ca']['ErrorReport'] = 'Informe d`error';
-
-    if (!strlen($lang)) $lang = $sys_lang;
-    if (isset($et[$lang][$tag])) return html_encode($et[$lang][$tag]);
-    else if (isset($et['en'][$tag])) return html_encode($et['en'][$tag]);
-    else return "[$tag]"; // So we can know what is missing
-}
-// +--------------------------------------------------
-// | THE END
-// +--------------------------------------------------
-?>
+    $et['ca']['InvExt'] = 'Exten
