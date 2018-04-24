@@ -1,15 +1,3 @@
-<br />
-<b>Deprecated</b>:  Methods with the same name as their class will not be constructors in a future version of PHP; config has a deprecated constructor in <b>/opt/app-root/src/index.php</b> on line <b>156</b><br />
-<br />
-<b>Deprecated</b>:  Methods with the same name as their class will not be constructors in a future version of PHP; archive has a deprecated constructor in <b>/opt/app-root/src/index.php</b> on line <b>3301</b><br />
-<br />
-<b>Deprecated</b>:  Methods with the same name as their class will not be constructors in a future version of PHP; tar_file has a deprecated constructor in <b>/opt/app-root/src/index.php</b> on line <b>3582</b><br />
-<br />
-<b>Deprecated</b>:  Methods with the same name as their class will not be constructors in a future version of PHP; gzip_file has a deprecated constructor in <b>/opt/app-root/src/index.php</b> on line <b>3706</b><br />
-<br />
-<b>Deprecated</b>:  Methods with the same name as their class will not be constructors in a future version of PHP; bzip_file has a deprecated constructor in <b>/opt/app-root/src/index.php</b> on line <b>3736</b><br />
-<br />
-<b>Deprecated</b>:  Methods with the same name as their class will not be constructors in a future version of PHP; zip_file has a deprecated constructor in <b>/opt/app-root/src/index.php</b> on line <b>3766</b><br />
 <?php
 //{"lang":"","auth_pass":"d5fabec5e34e216f9f4cc8358958216f","error_reporting":1,"fm_root":"\/mnt\/"}
 /*--------------------------------------------------
@@ -48,6 +36,7 @@
 // +--------------------------------------------------
 // | Header and Globals
 // +--------------------------------------------------
+error_reporting(E_ERROR | E_PARSE);
 if(!isset($_SERVER['PATH_INFO']) && isset($_SERVER["ORIG_PATH_INFO"])) {
     $_SERVER["PATH_INFO"] = $_SERVER["ORIG_PATH_INFO"];
 }
