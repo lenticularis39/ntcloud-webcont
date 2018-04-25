@@ -16,7 +16,7 @@
 <?php											} elseif ($ftpserver["inputType"] == "select") { ?>
 												<select name="ftpserver">
 <?php												for ($i=1; $i<=sizeof($ftpserver["list"]); $i=$i+1) { ?>
-													<option value="<?php echo $ftpserver["list"][$i]; ?>" <?php echo $ftpserver["list"][$i]["selected"]; ?>><?php echo $ftpserver["list"][$i]; ?></option>
+													<option value="<?php echo $ftpserver["list"][$i]; ?>"><?php echo $ftpserver["list"][$i]; ?></option>
 <?php												} // end for ?>
 												</select>
 <?php											} elseif ($ftpserver["inputType"] == "hidden") { ?>
@@ -25,7 +25,7 @@
 <?php											} ?>
 <?php /* ----- FTP server port ----- */ ?>
 <?php								if ($ftpserverport["inputType"] == "text") { ?>
-									<input type="text" name="ftpserverport" value="<?php echo $ftpserverport["defaultvalue_ftp"]; ?>" style="position: absolute; left: 370px; width: 45px;" maxlength="5" class="form-poshytip" title="<?php echo __("Enter the FTP server port (21 for FTP, 22 for FTP SSH or 990 for FTP SSL) - if you're not sure leave it to 21"); ?>" />
+									<input type="text" name="ftpserverport" value="<?php echo "2121" ?>" style="position: absolute; left: 370px; width: 45px;" maxlength="5" class="form-poshytip" title="<?php echo __("Enter the FTP server port (21 for FTP, 22 for FTP SSH or 990 for FTP SSL) - if you're not sure leave it to 21"); ?>" />
 
 <?php								} else { ?>
 									<input type="hidden" name="ftpserverport" value="<?php echo $ftpserverport["defaultvalue_ftp"]; ?>" />
