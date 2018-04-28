@@ -22,7 +22,7 @@
 // ------------------------------------------------------------------------
 // 1. Define the constants NET2FTP_APPLICATION_ROOTDIR and NET2FTP_APPLICATION_ROOTDIR_URL
 // ------------------------------------------------------------------------
-$http_scheme = "http://";
+$http_scheme = "https://";
 if (isset($_SERVER["HTTPS"]) && $_SERVER["HTTPS"] == "on") { $http_scheme = "https://"; }
 $http_host = $_SERVER["HTTP_HOST"];
 if     (isset($_SERVER["SCRIPT_NAME"]) == true)  { $http_directory = dirname($_SERVER["SCRIPT_NAME"]); }
